@@ -25,7 +25,7 @@ while True:
     except ValueError:
         print("Only floats are supported please enter a float")
 
-print("your entry time was", Entry_time)
+print("your entry time was", Entry_time, "seconds")
 #Adds password into a list (as strings)
 for item in Focuskey:
     Focuskey_list.append(item)
