@@ -1,19 +1,18 @@
 import time 
 import random
 
-#Basic simulation of a brute force attack (Purely educational)
 
 Focuskey_list = []
 Focuskey_track = []
 Focuskey_digits = [0,1,2,3,4,5,6,7,8,9]
 
-#Block to track the approximate time it would take to crack a pin
+#Time tracking block
 Attempt_count = 0
 Attempt_time = 0
 Entry_time = None
 
 #timing your entry
-#also included error handling incase anything apart from a float is entered , it keeps asking for input until a float is entered
+#also included error handling incase anything apart from a float is entered
 while True:
     try:
         start_time = time.time()
